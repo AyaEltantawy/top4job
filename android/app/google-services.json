@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "474290134778",
+    "project_id": "top4job-1c7b4",
+    "storage_bucket": "top4job-1c7b4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474290134778:android:1bf1dd136365d31a5ab343",
+        "android_client_info": {
+          "package_name": "com.example.top4job"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9ESuI8kAw2DomS98De3b0ajey8uyhjTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
