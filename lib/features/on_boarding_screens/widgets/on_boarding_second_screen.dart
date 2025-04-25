@@ -17,7 +17,7 @@ class OnBoardingSecondScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body:  ListView(
-        padding: EdgeInsets.only(left: 40, top: 40, right: 40),
+        padding: EdgeInsets.only(left: 40, top: 80, right: 40),
         children: [
           SvgPicture.asset(
             "assets/svgs/Logo.svg",
