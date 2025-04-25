@@ -29,20 +29,22 @@ class JobPromoCard extends StatelessWidget {
 
                   ),
                   const SizedBox(height: 10),
-                  ElevatedButton(
+                  Flexible(
+                    child: ElevatedButton(
 
-                    onPressed: () {},
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.white,
-                      foregroundColor: Colors.blue,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(30),
+                      onPressed: () {},
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.white,
+                        foregroundColor: Colors.blue,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(30),
+                        ),
                       ),
-                    ),
-                    child: Text(
-                      textAlign: TextAlign.center,
-                      "Read More",
-                      style: TextStyles.font12SecondBlue600Weight,
+                      child: Text(
+                        textAlign: TextAlign.center,
+                        "More",
+                        style: TextStyles.font12SecondBlue600Weight,
+                      ),
                     ),
                   ),
                 ],
